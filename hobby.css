@@ -1,0 +1,49 @@
+body{
+    background-color:#5C6BC0;
+}
+h3{
+    font-weight: bolder;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gold;
+    padding: 20px;
+    margin-right: 100px;
+    box-shadow: 0 10px 20px rgba(229, 233, 21, 0.19), 0 6px 6px rgba(230, 22, 22, 0.23);
+}
+h3:hover{
+    background-color: thistle;
+}
+.list1{
+   
+    margin-top: 20px;
+    margin-right:100px ;
+    background-color: indianred;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.list4{
+    color:black;
+    background-color: lightblue;
+    font-weight: bold;
+  font-family: monospace;
+    padding: 10px;
+}
+.list4:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    background-color: lightpink;
+}
+button{
+    left: 100px;
+    position: relative;
+    position: relative;
+    border: 2px solid blanchedalmond;
+    background-color: mediumspringgreen;
+    height: 40px;
+    width: 80px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+button:hover{
+    transform: scale(1.02);
+    background-color: crimson;
+}

@@ -1,0 +1,239 @@
+body {
+  background-color: #9088d4;
+}
+
+#head {
+  position: relative;
+  left: 1000px;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.main {
+  background-image: url("covid-vaccination.jpg");
+  background-color: #557174;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#Covid-19 {
+  font-size: 50px;
+  color: beige;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+  font-family: "Coda Caption", sans-serif;
+}
+input {
+  left: 1150px;
+  top: 60px;
+  position: relative;
+  height: 40px;
+  width: 300px;
+  transition: height 1s, width 1s;
+}
+input:hover {
+  border: 1px solid red;
+  width: 310px;
+  height: 40px;
+  box-shadow: 0 10px 25px rgba(205, 207, 216, 0.19),
+    0 6px 6px rgba(235, 103, 27, 0.23);
+}
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+  left: 20px;
+  font-size: medium;
+}
+.slow {
+  background-color: rgb(219, 201, 99);
+  padding: 10px;
+  margin: 10px;
+  transition: padding 2s ease-in-out, background-color 3s ease-in-out,
+    fond-size 0.5s;
+}
+.slow:hover {
+  background-color: #8654e2;
+  padding: 50px;
+  font-size: 20px;
+}
+li {
+  font-family: "Coda Caption", sans-serif;
+  padding: 8px;
+}
+.photo {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 250px;
+}
+.nav {
+  background-color: #ec4646;
+  padding: 2px;
+  margin: 5px;
+  position: relative;
+  left: 60px;
+}
+.nav2 {
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: padding-left 0.5s, padding-right 0.5s;
+}
+.nav2:hover {
+  padding-right: 35px;
+  padding-left: 35px;
+  background-color: #23c4ec;
+}
+a {
+  color: white;
+}
+#Cov {
+  height: 200px;
+  width: 200px;
+}
+.vaccine {
+  height: 500px;
+  width: 620px;
+  background-color: #a799b7;
+  padding: 20px;
+  position: relative;
+  left: 30px;
+  top: 10px;
+  transition: left 2s, padding 2s, background-color 2s, width 1s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.vaccine:hover {
+  width: 680px;
+  background-color: #f5cebe;
+}
+.Find {
+  position: relative;
+  left: 20px;
+  margin: 10px;
+  background-color: #a799b7;
+  padding: 70px;
+  height: 450px;
+  width: 620px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: transform 1s ease-in-out, width 2s;
+}
+.find:hover {
+  transform: scale(2.5);
+  width: 680px;
+}
+
+button,
+#search {
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  height: 70px;
+  font-size: medium;
+  background-color: #325288;
+  color: white;
+  border: 2px solid white;
+  transition: width 1s;
+}
+button:hover {
+  width: 260px;
+  background-color: #fea82f;
+}
+#Choose {
+  height: 40px;
+  width: 150px;
+}
+#H {
+  background-color: burlywood;
+  text-align: center;
+  font-family: "Secular One", sans-serif;
+}
+.type {
+  position: relative;
+  left: 20px;
+  margin: 10px;
+  background-color: #325288;
+  padding: 70px;
+  height: 550px;
+  width: 700px;
+  color: white;
+}
+
+video {
+  background-color: tomato;
+  border-radius: 20px;
+  transition: width 2s;
+  position: relative;
+  bottom: 200px;
+  left: 30px;
+  top: 20px;
+}
+video:hover {
+  background-color: royalblue;
+  width: 410px;
+}
+h4 {
+  top: 30px;
+  position: relative;
+  bottom: 90px;
+  left: 40px;
+  background-color: #fdca40;
+}
+#q {
+  font-family: "Caveat", cursive;
+  background-color: slateblue;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+.v1,
+.v2,
+.v3,
+.v4 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Secular One", sans-serif;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border: 2px solid black;
+  position: relative;
+  left: 30px;
+  height: 400px;
+  width: 300px;
+  background-color: #2978b5;
+  margin: 10px;
+  transition: left 2s, width 1s, background-color 1.5s, transform 1s;
+}
+.v1:hover {
+  transform: scale(1.05);
+  width: 320px;
+  background-color: #ffb037;
+}
+.v2:hover {
+  transform: scale(1.05);
+  width: 320px;
+  background-color: #ffb037;
+}
+.v3:hover {
+  transform: scale(1.05);
+  width: 320px;
+  background-color: #ffb037;
+}
+.v4:hover {
+  transform: scale(1.05);
+  width: 320px;
+  background-color: #ffb037;
+}
+
+#last {
+  position: relative;
+  height: 600px;
+  width: 1200px;
+  left: 100px;
+}
+#Covid-19 {
+  position: relative;
+  left: 500px;
+  font-size: 70px;
+}

@@ -1,0 +1,86 @@
+body{
+    background-color: #B388FF;
+}
+.main{
+    position: relative;
+    left: 100px;
+}h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fc4c17;
+    margin-right: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+h3:hover{
+    background-color:turquoise;
+    color: white;
+    transform: scale(1.05);
+}
+#detail{
+    padding: 20px;
+    margin-right:200px ;
+    background-color: #F48FB1;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}#form{
+    margin-right: 500px;
+    background-color: salmon;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#form:hover{
+    background-color:#FFFF8D;
+    transform: scale(1.02);  
+}
+.list{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 10px;
+    margin:10px;
+    background-color: #1DE9B6;
+}
+.list:hover{
+
+    background-color: white;
+    transform: scale(1.05);
+}
+p,label{
+    color: rgb(87, 74, 74);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    width: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 30px;
+    border: 2px solid black
+
+}
+input:hover{
+    background-color: #C5CAE9;
+    border-radius: 15px;
+    font-family: monospace;
+}
+textarea{
+    font-weight: bold;
+    color: deepskyblue;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+button{
+    bottom: 780px;
+    position: relative;
+    left: 1000px;
+    border: 2px solid blanchedalmond;
+    background-color: mediumspringgreen;
+    height: 40px;
+    width: 80px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+button:hover{
+    transform: scale(1.02);
+    background-color: crimson;
+}
